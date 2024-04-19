@@ -17,6 +17,13 @@ def main():
     for num in range (1, 30) :
         c.move(-5, 2.5)
         sleep(0.05)
+    win.getMouse() # pause one more time
+    for num in range (1, 40) :
+        c.move(2, -2.5)
+        sleep(0.02)
+    for num in range (1,40) :
+        c.move(-2, -2.5)
+        sleep(0.02)
     win.getMouse() # pause one last time
     win.close()
 
